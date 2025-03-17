@@ -3,40 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
     <title>شروط وأحكام الكورس</title>
     <style>
         body {
-            font-family: 'Amiri', serif;
-            line-height: 1.6;
+            font-family: 'Tajawal', sans-serif;
+            line-height: 1.8;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f2f5;
             color: #333;
             direction: rtl;
             text-align: right;
         }
         .container {
-            border-radius: 15px;
-            max-width: 900px;
-            margin: 20px auto;
-            background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.288);
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+        .container:hover {
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
         }
         h1 {
             text-align: center;
+            color: #0056b3;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        h3 {
             color: #444;
+            border-right: 5px solid #0056b3;
+            padding-right: 10px;
+            margin-top: 20px;
         }
         p {
             margin-bottom: 15px;
+            font-size: 16px;
+        }
+        ul {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            list-style: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+            padding: 8px;
+            border-right: 4px solid #0056b3;
+            background: #fff;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        ul li:hover {
+            background: #eef4ff;
         }
         .link {
-            color: #0066cc;
+            display: inline-block;
+            margin-top: 20px;
+            color: #fff;
+            background: #0056b3;
+            padding: 10px 20px;
+            border-radius: 6px;
             text-decoration: none;
+            font-weight: 700;
+            transition: 0.3s;
         }
         .link:hover {
-            text-decoration: underline;
+            background: #004499;
+        }
+        .link-container {
+            text-align: center;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -76,7 +117,9 @@
 
     <p>نهدف إلى توفير بيئة تعليمية ممتعة ومفيدة للطلاب، لذا نرجو الالتزام بهذه القواعد لضمان تحقيق أقصى استفادة من الكورس.</p>
 
-    <p><a href="index.html" class="link">اضغط هنا</a> للعودة إلى الصفحة الرئيسية.</p>
+    <div class="link-container">
+        <a href="index.html" class="link">العودة إلى الصفحة الرئيسية</a>
+    </div>
 </div>
 
 </body>
