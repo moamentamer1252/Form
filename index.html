@@ -18,13 +18,27 @@
         }
         
         .title {
-            font-family: Verdana, sans-serif;
-            font-size: 36px;
-            color: black;
-            margin-bottom: 20px;
-            font-weight: 700;
+    font-family: Verdana, sans-serif;
+    font-size: 36px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(255, 255, 0, 0.671), 0 0 10px rgba(255, 255, 0, 0.527), 0 0 20px rgba(255, 166, 0, 0.726);
+    animation: typing 3s steps(12, end) forwards, blink 0.7s infinite;
+     white-space: nowrap;
+            text-align: center;
+            border-right: 1px solid rgb(255, 255, 255); 
+            width: 0; 
+}
+
+@keyframes typing {
+            from { width: 0; }
+            to { width: 200px; } 
         }
-        
+
+        @keyframes blink {
+            50% { border-color: transparent; }
+        }
         .form-container {
             backdrop-filter: blur(8px);
             display: flex;
@@ -84,6 +98,7 @@
         }
         
         .a {
+            text-shadow: 0 0 8px rgba(255, 255, 0, 0.26), 0 0 10px rgba(255, 255, 0, 0.527), 0 0 20px rgba(255, 166, 0, 0.295);
             margin-top: 12px;
             margin-left: -165px;
         }
